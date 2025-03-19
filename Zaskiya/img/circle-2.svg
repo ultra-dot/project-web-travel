@@ -1,0 +1,9 @@
+<svg width="432" height="431" viewBox="0 0 432 431" fill="none" xmlns="http://www.w3.org/2000/svg">
+<foreignObject x="-9.28247" y="-9.44537" width="450.565" height="450.435"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(5px);height:100%;width:100%"></div></foreignObject><path data-figma-bg-blur-radius="10" d="M401.282 215.772C401.282 318.056 318.337 400.989 216 400.989C113.663 400.989 30.7175 318.056 30.7175 215.772C30.7175 113.488 113.663 30.5546 216 30.5546C318.337 30.5546 401.282 113.488 401.282 215.772Z" stroke="url(#paint0_radial_5_72)" stroke-opacity="0.49" stroke-width="60"/>
+<defs>
+<radialGradient id="paint0_radial_5_72" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(209.945 225.188) rotate(88.7893) scale(286.572 286.659)">
+<stop offset="0.654764" stop-color="#E2F6FC" stop-opacity="0.36"/>
+<stop offset="1" stop-color="#48B7D6" stop-opacity="0.84"/>
+</radialGradient>
+</defs>
+</svg>

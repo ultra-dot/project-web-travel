@@ -1,0 +1,20 @@
+/* globals.css */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Animasi */
+@keyframes bounceWithPause {
+    0%, 100% { transform: translateY(0); }
+    10% { transform: translateY(-10px); }
+    20% { transform: translateY(0); }
+    30% { transform: translateY(-10px); }
+    40% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    60% { transform: translateY(0); }
+    100% { transform: translateY(0); }
+}
+
+.animate-bounce-custom {
+    animation: bounceWithPause 6s ease-in-out infinite;
+}

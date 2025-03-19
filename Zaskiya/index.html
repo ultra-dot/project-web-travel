@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selamat Datang Calon Tamu Allah!</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="globals.css">
+    <link rel="stylesheet" href="style.css">
+    <style></style>
+</head>
+
+<body class="bg-white">
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-transparent z-50 text-white">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center">
+                    <img src="logo dummy.png" alt="Logo" class="h-12 w-auto">
+                </div>
+                
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#" class="text-white-700 hover:text-orange-500">Beranda</a>
+                    <a href="#paket-umroh" class="text-white-700 hover:text-orange-500">Paket Umroh</a>
+                    <a href="#haji-plus" class="text-white-700 hover:text-orange-500">Haji Plus</a>
+                    <a href="#" class="text-white-700 hover:text-orange-500">Info Lainnya</a>
+                </div>
+
+                <div class="flex items-center">
+                    <button class="bg-orange-500 text-white px-6 py-2 rounded-full hover:bg-orange-600 transition">
+                        <a href="login.html">Masuk</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+<!-- Button Arrow Up -->
+<button id="backToTop" 
+    class="hidden fixed bottom-6 right-6 bg-orange-500 text-white p-3 rounded-full shadow-lg w-12 h-12 flex items-center justify-center">
+    ▲
+</button>
+
+
+    <!-- Hero Section -->
+    <div class="relative min-h-screen overflow-hidden">
+        <!-- Background Image -->
+        <div class="absolute inset-0">
+            <img src="banner.jpg" 
+                 alt="Kaaba Background"
+                 class="w-full h-full object-cover brightness-50">
+        </div>
+
+        <!-- Content -->
+        <div class="relative container mx-auto px-6 pt-32 sm:ml-10">
+            <div class="grid md:grid-cols-2 gap-12 items-center min-h-screen">
+                <!-- Left Column -->
+                <div class="text-white">
+                    <h1 class="text-5xl font-bold mb-6">Selamat Datang Calon Tamu Allah!</h1>
+                    <p class="text-lg mb-8">Join and get your first trip up-to-date advice, travel tips, and more! Let's travel and explore Saudi Arabia!</p>
+                </div>
+
+                <!-- Right Column -->
+                <!-- <div><div class="card bg-white p-4 rounded-lg shadow-lg sm:w-80 sm:ml-60">
+                    <img src="img/kabah.png" alt="Avatar" style="width:100%">
+                    <div class="container">
+                      <h4><b>John Doe</b></h4>
+                      <p>Architect & Engineer</p>
+                    </div>
+                  </div> -->
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+<!-- Scroll Down Indicator -->
+<div class="absolute bottom-10 left-1/2 transform -translate-x-1/2">
+    <i class="fas fa-chevron-down text-white text-3xl animate-bounce-custom"></i>
+</div>
+
+<!-- Paket Umroh -->
+<div id="paket-umroh" class="container mx-auto px-6 py-12">
+    <h2 class="text-3xl font-bold text-center mb-8">Paket Umroh</h2>
+    <div class="grid md:grid-cols-3 gap-4">
+
+        <!-- Card 1 -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+            <img src="dummy2.png" alt="Umroh HEMAT" class="w-full h-60 object-cover">
+            <div class="p-4">
+                <h3 class="font-semibold text-xl">Regular</h3>
+                <p>Umroh Hemat Transit</p>
+                <p>9 Hari</p>
+                <p class="text-gray-600">Transit | Kereta Cepat</p>
+                <p class="mt-2 font-bold">Harga Mulai: 27,5 Juta</p>
+                <button class="bg-orange-500 text-white px-4 py-2 rounded mt-4">Seat Terbatas</button>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+            <img src="dummy2.png" alt="Umroh Plus" class="w-full h-60 object-cover">
+            <div class="p-4">
+                <h3 class="font-semibold text-xl">Diamond</h3>
+                <p>Umroh Hebat</p>
+                <p>10 Hari</p>
+                <p class="text-gray-600">Transit | Kereta Cepat</p>
+                <p class="mt-2 font-bold">Harga Mulai: 29,5 Juta</p>
+                <button class="bg-orange-500 text-white px-4 py-2 rounded mt-4">Seat Terbatas</button>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+            <img src="dummy2.png" alt="Umroh HEMAT" class="w-full h-60 object-cover">
+            <div class="p-4">
+                <h3 class="font-semibold text-xl">Prestige</h3>
+                <p>Umroh Plus Mesir</p>
+                <p>12 Hari</p>
+                <p class="text-gray-600">Transit | Kereta Cepat</p>
+                <p class="mt-2 font-bold">Harga Mulai: 32,5 Juta</p>
+                <button class="bg-orange-500 text-white px-4 py-2 rounded mt-4">Seat Terbatas</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- Haji Plus -->
+<div id="haji-plus" class="container mx-auto px-6 py-12">
+    <h2 class="text-3xl font-bold text-center mb-8">Haji Plus</h2>
+    <div class="grid md:grid-cols-3 gap-4">
+
+        <!-- Card 1 -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+            <img src="dummy2.png" alt="Umroh HEMAT" class="w-full h-60 object-cover">
+            <div class="p-4">
+                <h3 class="font-semibold text-xl">Regular</h3>
+                <p>Umroh Hemat Transit</p>
+                <p>9 Hari</p>
+                <p class="text-gray-600">Transit | Kereta Cepat</p>
+                <p class="mt-2 font-bold">Harga Mulai: 27,5 Juta</p>
+                <button class="bg-orange-500 text-white px-4 py-2 rounded mt-4">Seat Terbatas</button>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+            <img src="dummy2.png" alt="Umroh Plus" class="w-full h-60 object-cover">
+            <div class="p-4">
+                <h3 class="font-semibold text-xl">Diamond</h3>
+                <p>Umroh Hebat</p>
+                <p>10 Hari</p>
+                <p class="text-gray-600">Transit | Kereta Cepat</p>
+                <p class="mt-2 font-bold">Harga Mulai: 29,5 Juta</p>
+                <button class="bg-orange-500 text-white px-4 py-2 rounded mt-4">Seat Terbatas</button>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+            <img src="dummy2.png" alt="Umroh HEMAT" class="w-full h-60 object-cover">
+            <div class="p-4">
+                <h3 class="font-semibold text-xl">Prestige</h3>
+                <p>Umroh Plus Mesir</p>
+                <p>12 Hari</p>
+                <p class="text-gray-600">Transit | Kereta Cepat</p>
+                <p class="mt-2 font-bold">Harga Mulai: 32,5 Juta</p>
+                <button class="bg-orange-500 text-white px-4 py-2 rounded mt-4">Seat Terbatas</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script>
+    const backToTopButton = document.getElementById("backToTop");
+  
+    // Tampilkan tombol saat scroll ke bawah
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 300) { 
+        backToTopButton.classList.remove("hidden");
+      } else {
+        backToTopButton.classList.add("hidden");
+      }
+    });
+  
+    // Scroll ke atas saat tombol diklik
+    backToTopButton.addEventListener("click", () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  </script>
+
+
+</body>
+</html>
